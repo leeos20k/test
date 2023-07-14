@@ -54,7 +54,7 @@ const EditSchedule = () => {
         <form onSubmit={onSubmit}>
                 <div className="mb-3">
                   <label htmlFor="plan" className="form-label">
-                    계획
+                    계획명
                   </label>
                   <input
                     required
@@ -69,7 +69,7 @@ const EditSchedule = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="info" className="form-label">
-                    상세
+                    상세내용
                   </label>
                   <input
                     required

@@ -34,12 +34,12 @@ const AddSchedule = () => {
   <div className="container">
     <div className="row">
       <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
-          <h2 className="text-center m-4">등록하기</h2>
+          <h2 className="text-center m-4">계획 추가</h2>
 
         <form onSubmit={onSubmit}>
                 <div className="mb-3">
                   <label htmlFor="plan" className="form-label">
-                    계획
+                    계획명
                   </label>
                   <input
                     required
@@ -48,13 +48,13 @@ const AddSchedule = () => {
                     value={plan}
                     onChange={onInputChange}
                     className="form-control"
-                    placeholder="이름 입력"
+                    // placeholder="계획명"
                     name="plan"
                   />
                 </div>
                 <div className="mb-3">
                   <label htmlFor="info" className="form-label">
-                    상세
+                    상세내용
                   </label>
                   <input
                     required
@@ -63,7 +63,7 @@ const AddSchedule = () => {
                     value={info}
                     onChange={onInputChange}
                     className="form-control"
-                    placeholder="유저네임 입력"
+                    // placeholder="상세내용"
                     name="info"
                   />
                 </div>
