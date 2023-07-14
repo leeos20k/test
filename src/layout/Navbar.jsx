@@ -33,9 +33,6 @@ function Navbar() {
                 Add
               </Link>
             </li>
-
-
-
           </ul>
         </div>
      </div>
